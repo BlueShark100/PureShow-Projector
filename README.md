@@ -2,7 +2,8 @@
  This is a simple webcoding project that allows you to improvise a laser show using just a projector. The page is meant to projected and controlled using a keyboard in a similar fashion to other lightshow projects on my profile
 
 # How do I run it?
-First you'll want to download all of the files and unzip the file. With the folder ready put it wherever you like on your system. It's important to note that all the contents within the folder should say in thier relative locations, which is to day don't move or rename contents within the folder as it may cause issues when attempting to use the webpage. 
+**After downloading the files ensure that they all stay _within_ the main folder.** 
+This is because the html file references the images locally within the folder. Then you can simply open the index.html file using your browser to run the code. You can also find a working version of this on [**this website**](https://pureshow-projector.netlify.app/)
 
 ## How to Use
 This project is inteded to be used with a projector and fog machine. By projecting the contents of this site while interacting with it and filling the room or area you are projecting in with fog it should create a laser projector effect. This effect is best experiences when standing opissite to the projector in your room or area and facing the projector while the projector faces you. <br/>
