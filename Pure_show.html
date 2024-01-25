@@ -1,0 +1,864 @@
+<DOCTYPE html>
+<html style="background-color: #111" id="TheBigBoiHTML">
+    <title>--------- Pure Show ---------</title>
+    <body>
+        <div class="WaveContainer" id="WaveContainer"> <p>Waveform goes here :)</p>
+            <script src="https://unpkg.com/wavesurfer.js"></script>
+            <div id="waveform">
+                <!-- the waveform will be rendered here -->
+            </div>
+        </div>
+        <div class="Boxes">
+            <img class="Centered" id="BL1" src="KeyBoard2/Cube Lights/Box L1.png">
+            <img class="Centered" id="BL2" src="KeyBoard2/Cube Lights/Box L2.png">
+            <img class="Centered" id="BL3" src="KeyBoard2/Cube Lights/Box L3.png">
+            <img class="Centered" id="BL4" src="KeyBoard2/Cube Lights/Box L4.png">
+
+            <img class="Centered" id="BR1" src="KeyBoard2/Cube Lights/Box R1.png">
+            <img class="Centered" id="BR2" src="KeyBoard2/Cube Lights/Box R2.png">
+            <img class="Centered" id="BR3" src="KeyBoard2/Cube Lights/Box R3.png">
+            <img class="Centered" id="BR4" src="KeyBoard2/Cube Lights/Box R4.png">
+        </div>
+        <div class="Bars">
+            <img class="Centered" id="AL1" src="KeyBoard2/Bars/L1.png">
+            <img class="Centered" id="AL2" src="KeyBoard2/Bars/L2.png">
+            <img class="Centered" id="AL3" src="KeyBoard2/Bars/L3.png">
+            <img class="Centered" id="AL4" src="KeyBoard2/Bars/L4.png">
+
+            <img class="Centered" id="AR1" src="KeyBoard2/Bars/R1.png">
+            <img class="Centered" id="AR2" src="KeyBoard2/Bars/R2.png">
+            <img class="Centered" id="AR3" src="KeyBoard2/Bars/R3.png">
+            <img class="Centered" id="AR4" src="KeyBoard2/Bars/R4.png">
+        </div>
+        <div class="BeamCircle" id="BeamCGroup">
+            <img class="Centered" id="PL1" src="KeyBoard2/Beams/L1.png">
+            <img class="Centered" id="PL2" src="KeyBoard2/Beams/L2.png">
+            <img class="Centered" id="PL3" src="KeyBoard2/Beams/L3.png">
+            <img class="Centered" id="PL4" src="KeyBoard2/Beams/L4.png">
+
+            <img class="Centered" id="PR1" src="KeyBoard2/Beams/R1.png">
+            <img class="Centered" id="PR2" src="KeyBoard2/Beams/R2.png">
+            <img class="Centered" id="PR3" src="KeyBoard2/Beams/R3.png">
+            <img class="Centered" id="PR4" src="KeyBoard2/Beams/R4.png">
+        </div>
+        <div class="Pillars" id="sdf">
+            <img class="Centered" id="EL4" src="KeyBoard2/Pillars/L4.png">
+            <img class="Centered" id="EL3" src="KeyBoard2/Pillars/L3.png">
+            <img class="Centered" id="EL2" src="KeyBoard2/Pillars/L2.png">
+            <img class="Centered" id="EL1" src="KeyBoard2/Pillars/L1.png">
+
+            <img class="Centered" id="ER1" src="KeyBoard2/Pillars/R1.png">
+            <img class="Centered" id="ER2" src="KeyBoard2/Pillars/R2.png">
+            <img class="Centered" id="ER3" src="KeyBoard2/Pillars/R3.png">
+            <img class="Centered" id="ER4" src="KeyBoard2/Pillars/R4.png">
+        </div>
+
+
+        <div class="Ring" id="RingGroup">
+            <img class="Centered" id="RL4" src="KeyBoard1/Circle Lights/Circle L4.png">
+            <img class="Centered" id="RL3" src="KeyBoard1/Circle Lights/Circle L3.png">
+            <img class="Centered" id="RL2" src="KeyBoard1/Circle Lights/Circle L2.png">
+            <img class="Centered" id="RL1" src="KeyBoard1/Circle Lights/Circle L1.png">
+
+            <img class="Centered" id="RR1" src="KeyBoard1/Circle Lights/Circle R1.png">
+            <img class="Centered" id="RR2" src="KeyBoard1/Circle Lights/Circle R2.png">
+            <img class="Centered" id="RR3" src="KeyBoard1/Circle Lights/Circle R3.png">
+            <img class="Centered" id="RR4" src="KeyBoard1/Circle Lights/Circle R4.png">
+        </div>
+        <div class="Colors" id="ColorGroup">
+            <img class="Centered" id="CL4" src="KeyBoard1/Colored Lights/Colors L4.png">
+            <img class="Centered" id="CL3" src="KeyBoard1/Colored Lights/Colors L3.png">
+            <img class="Centered" id="CL2" src="KeyBoard1/Colored Lights/Colors L2.png">
+            <img class="Centered" id="CL1" src="KeyBoard1/Colored Lights/Colors L1.png">
+
+            <img class="Centered" id="CR1" src="KeyBoard1/Colored Lights/Colors R1.png">
+            <img class="Centered" id="CR2" src="KeyBoard1/Colored Lights/Colors R2.png">
+            <img class="Centered" id="CR3" src="KeyBoard1/Colored Lights/Colors R3.png">
+            <img class="Centered" id="CR4" src="KeyBoard1/Colored Lights/Colors R4.png">
+        </div>
+        <div class="CubedIt" id="CubeGroup">
+            <img class="Centered" id="UL4" src="KeyBoard1/Cubed/L4.png">
+            <img class="Centered" id="UL3" src="KeyBoard1/Cubed/L3.png">
+            <img class="Centered" id="UL2" src="KeyBoard1/Cubed/L2.png">
+            <img class="Centered" id="UL1" src="KeyBoard1/Cubed/L1.png">
+
+            <img class="Centered" id="UR1" src="KeyBoard1/Cubed/R1.png">
+            <img class="Centered" id="UR2" src="KeyBoard1/Cubed/R2.png">
+            <img class="Centered" id="UR3" src="KeyBoard1/Cubed/R3.png">
+            <img class="Centered" id="UR4" src="KeyBoard1/Cubed/R4.png">
+        </div>
+        <div class="SpeckledL" id="SpeckleGroup">
+            <img class="Centered" id="SL4" src="KeyBoard1/Speckle/L4.png">
+            <img class="Centered" id="SL3" src="KeyBoard1/Speckle/L3.png">
+            <img class="Centered" id="SL2" src="KeyBoard1/Speckle/L2.png">
+            <img class="Centered" id="SL1" src="KeyBoard1/Speckle/L1.png">
+
+            <img class="Centered" id="SR1" src="KeyBoard1/Speckle/R1.png">
+            <img class="Centered" id="SR2" src="KeyBoard1/Speckle/R2.png">
+            <img class="Centered" id="SR3" src="KeyBoard1/Speckle/R3.png">
+            <img class="Centered" id="SR4" src="KeyBoard1/Speckle/R4.png">
+        </div>
+
+        <p class="RunTime" id="RunTime">0</p>
+        <p class="TrackTime" id="TrackTime">0</p>
+        <div class="CountdownBar" id="CountdownBar"></div>
+        <p class="Countdown" id="Countdown">3</p>
+
+        <div class="OptionsWindow" id="SetWindow">
+            <!-- USE ARROW KEYS TO CHANGE FADE DURATION DURING THE LIGHTSHOW <====  Good idea  -->
+            <!-- Use a common delimanted file type thingie mobabboer  -->
+            <button onclick="SetWindow.style = 'opacity: 0';" class="CloseButton">X</button>
+            <button onclick="ToggleLights();" class="ActionButton" id="LightsToggle">TURN OFF ALL LIGHTS</button>
+            <h1>Set music and replay files</h1>
+            <label for="replayfile" class="InputText" title='You can also drag a file onto the "Choose File" box'>Select a replay file:</label>
+            <input type="file" id="replayfile" accept=".txt" oninput="console.log(this.value); setupReplay()">
+            <br>
+            <label for="replayfile" class="InputText" title='You can also drag a file onto the "Choose File" box'>Select a music file:</label>
+            <input type="file" id="musicFile" accept=".mp3" oninput="setupMusic()">
+            <br><br>
+            <button class="ActionButton" onclick="startRunTimer(); ReplayOutput.textContent = '';" id="playbackButton" title="If a replay file is uploaded being playback of that replay file. Countdown will bein once clicked and if uplaoded music file will also begin">BEGIN PLAYBACK</button>
+            <br>
+            <label for="recordingCheck" title="Enable or disable recording with the playback to output a replay file later" class="InputText">Record with playback:</label>
+            <input type="checkbox" id="recordingCheck">
+            <br><br>
+            <label for="replayfile" title="Shows the current runtime of the replay or recording" class="InputText">Show runtime:</label>
+            <input type="checkbox" title="Shows the current runtime of the replay or recording" id="runTimeDisplay" oninput="showHideRuntime(this.checked)">
+            <br><br>
+            <!-- <object data="ReplayFiles/ReplayFileTest.txt"></object> -->
+            <input id="FadeSlider" type="range" min="0.10" max="3" value="0.6" step="0.05" oninput="FadeRange.textContent = 'Fade duration set to: ' + String(Number(this.value).toFixed(2)) + 's'; FadeDuration = Number(this.value)" title="Set the amount of time it takes for the lights to fade out when in the fading mode"><p id="FadeRange">Fade duration set to: 0.60s</p>
+            <input id="SpinSlider" type="range" min="0.2" max="10" value="4" step="0.05" oninput="SpinRange.textContent = 'Spin speed set to: ' + String(Number(this.value).toFixed(2)) + 's'; SpinSpeed = Number(this.value)" title="Set the amount of time for the spin animation to complete once full rotation when in the spinning mode. Property is set when spin is enabled so you may have to re-toggle the spin mode to apply the new setting"><p id="SpinRange">Spin speed set to: 4.00s</p>
+            <input type="range" min="0.05" max="1" value="0.20" step="0.05" oninput="FadeChangeText.textContent = 'Fade change set to: ' + String(Number(this.value).toFixed(2)) + 's'; FadeChange = Number(this.value)" title="Set the amount of time it takes for the lights to fade out when in the fading mode"><p id="FadeChangeText">Fade change set to: 0.10s</p>
+            <input type="range" min="0.05" max="1" value="0.75" step="0.05" oninput="SpinChangeText.textContent = 'Spin change set to: ' + String(Number(this.value).toFixed(2)) + 's'; SpinChange = Number(this.value)" title="Set the amount of time it takes for the lights to fade out when in the fading mode"><p id="SpinChangeText">Spin change set to: 0.75s</p>
+            
+            <br>
+            <label for="replayViewer" id="replayLabel" class="InputText">Replay file will appear below once uploaded</label><br>
+            <object data="" id="replayViewer" class="replayViewer"></object>
+            <br><br><br>
+            <label for="musicPlayer" class="InputText">Current music file uploaded:</label><br><br>
+            <audio id="musicPlayer" controls onended="stopRunTimer = true"></audio> <br>
+            <p class="warningNote">NOTE: This should only be used to preview the audio,<br>ensure the player is paused before begining lightshow playback</p>
+
+            <div id="ReplayOutput" class="ReplayOutput">THIS MESSAGE ENSURES THE LIGHTSHOW KNOWS THIS IS A WORKING REPLAY FILE: 17E2B9A2CA807<br></div>
+        </div>
+
+        <button onclick="openFullscreen();" class="FSbutton">Enter Fullscreen</button>
+    </body>
+    
+    <style>
+        html {
+            /* background-color: rgb(0, 0, 0); */
+            overflow: hidden;
+            cursor: none;
+        }
+        
+        .Countdown {
+            color: rgb(255, 107, 107);
+            opacity: 0;
+            position: absolute;
+            font-size: 50px;
+            font-weight: bolder;
+            left:48%;
+            top:30%;
+        }
+        .CountdownBar {
+            position: absolute;
+            background-color: red;
+            left:10%;
+            bottom:50%;
+            width: 80%;
+            height: 30px;
+            /* animation: countItDown 1s linear 0s 3 forwards; */
+            border-left: 5px solid rgb(119, 241, 255);
+            opacity: 0;
+        }
+
+        /* @keyframes | duration | easing-function | delay | iteration-count | direction | fill-mode | play-state | name */
+
+        .OptionsWindow {
+            color: white;
+            padding: 4%;
+            top:21%;
+            left:21%;
+            width: 50%;
+            height: 50%;
+            background-color: rgb(20, 20, 20);
+            position: absolute;
+            border: 2px solid white;
+            border-radius: 10px;
+            transition: 0.2s;
+            cursor: default;
+            opacity: 0%;
+            overflow: scroll;
+        }
+
+        .ReplayOutput {
+            white-space: pre-wrap;
+            height: 400px;
+            overflow: scroll;
+            background-color: black;
+            color:white;
+        }
+        
+        /* Custum scroll bar setup */
+        /* width */
+        ::-webkit-scrollbar {
+        width: 5px;
+        }
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+        background: #888; 
+        border-radius: 2px;
+        }
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+        background: #555; 
+        }
+
+        .CloseButton {
+            color: White;
+            background-color: rgb(20, 20, 20);
+            border: 2px solid red;
+            border-radius: 7px;
+            top: 2px;
+            left: 2px;
+            position: absolute;
+            cursor: pointer;
+        }
+
+        .ActionButton {
+            background-color: black;
+            color: white;
+            border: 2px solid white;
+            border-radius: 8px;
+            font-size: 20px;
+            position: relative;
+        }
+
+        .InputText {
+            font-size: 20px;
+        }
+
+        .warningNote {
+            color: red;
+        }
+
+        .FSbutton { 
+            top: 0px;
+            left: 0px;
+            position: absolute;
+            width: 100px;
+            height: 50px;
+            opacity: 0%;
+            transition: 0.2s;
+        }
+        .FSbutton:hover {
+            opacity:100%;
+        }
+
+        .RunTime {
+            position:absolute;
+            bottom:0%;
+            left:0%;
+            color: white;
+            opacity:0;
+        }
+        .TrackTime {
+            position:absolute;
+            bottom:15px;
+            left:0%;
+            color: white;
+            opacity:0;
+        }
+
+        .WaveContainer {
+            position: absolute;
+            bottom: 0px;
+            left: calc(7% - 2px);
+            width: calc(93% - 2px);
+            height: 50px;
+            /* background-color: blue;
+            */
+            border: 2px solid rgb(37, 37, 37);
+            text-align: center;
+            vertical-align: center;
+            color: rgb(31, 31, 31);
+            opacity: 0;
+        }
+
+        .Centered {
+            width:100%;
+            height: 100%;
+            object-fit: contain;
+            position: absolute;
+        }
+        /* Here we are just making all the images as big as possible and keeping it within the bounderies. No image stretching, they should all also be aligned */
+        .Colors {
+            width:100%;
+            height: 100%;
+            object-fit: contain;
+            position: absolute;
+        }
+        .Ring {
+            width:100%;
+            height: 100%;
+            object-fit: contain;
+            position: absolute;
+        }
+
+        .BeamCircle {
+            width:100%;
+            height: 100%;
+            object-fit: contain;
+            position: absolute;
+        }
+
+        @keyframes fadeout {
+            0% {opacity: 100%;}
+            100% {opacity: 0%;}
+        }
+
+        @keyframes spinit {
+            0% {rotate: 0deg;}
+            100% {rotate: 360deg;}
+        }
+
+        @keyframes moveitright {
+            0% {translate: 0px 0px;}
+            100% {translate: 300px 0px;}
+        }
+        @keyframes moveitleft {
+            0% {translate: 0px 0px;}
+            100% {translate: -300px 0px;}
+        }
+        @keyframes countItDown {
+            0% {width: 80%;}
+            100% {width: 0%;}
+        }
+
+    </style>
+
+    <script>
+        const bc = new BroadcastChannel('REPLAY_channel');
+        
+        function SendThatMessage(sendThis) {
+            // sending a message through the brocasting channel
+            // It doesn't have to be a string, it could be a JS object
+            bc.postMessage(sendThis);
+            console.log("Sent: " + String(sendThis));
+        };
+
+        bc.onmessage = function (ev) {
+            if (ev.data === "START_REPLAY") {
+                console.log(ev.data);
+                startRunTimer();
+            } else if (ev.data === "STOP_REPLAY") {
+                console.log(ev.data);
+                stopRunTimer = true;
+            } else if ((recordingCheck.checked === true) && (ev.data === "TEXT_IS_ON")) {
+                ReplayOutput.textContent = ReplayOutput.textContent.concat(String(musicPlayer.currentTime), "\tTEXT\tI\n");
+            } else if ((recordingCheck.checked === true) && (ev.data === "TEXT_IS_OFF")) {
+                ReplayOutput.textContent = ReplayOutput.textContent.concat(String(musicPlayer.currentTime), "\tTEXT\tO\n");
+            } else if ((recordingCheck.checked === true) && (ev.data === "TEXT_IS_CHANGIN")) {
+                ReplayOutput.textContent = ReplayOutput.textContent.concat(String(musicPlayer.currentTime), "\tTEXT\tK\n");
+            }
+        }
+
+        //var wavesurfer = WaveSurfer.create({
+        //    container: '#waveform',
+        //});
+        const delay = ms => new Promise(res => setTimeout(res, ms)); //utility function to wait in the code. returns a promise true when finished. usage: delay(miliseconds)
+        
+
+        var FadeDuration = 0.6;
+        var SpinSpeed = 4;
+        var FadeChange = 0.2;
+        var SpinChange = 0.75;
+        var timetocount = 5;
+        var runTimerMili = 0;
+        var stopRunTimer = false;
+        var ReplayCurrnetLine = 1;
+        var replayValues = [];
+        var stopRunTimer = true;
+        var DoTheReplay = false;
+
+        async function BeginTutorial() {
+            alert("Welcome to a quick tutorial of the lightshow");
+            if (confirm("At several points you can exit by pressing cancel on the prompts. Most elements in the settings menu should also have tooltips if you hover your mouse over and wait shortly. Click ok to continue")){
+                SetWindow.style.opacity = "1";
+                await delay(200);
+                alert("This is the settings window. You'll be able to find several adjustments and setup for your lightshow here. To enable and disable the window press the control key. There is also an 'X' in the corner to close the window");
+                LightsToggle.style = "border: 3px dashed red";
+                await delay(1); //wait one milisecond so that there is any amount of time for this effect to take place
+                alert("This first button will allow you to quickly turn on or off all of the lights");
+                LightsToggle.style = "border: 2px solid white";
+                await delay(1);
+            }
+            else {
+                return false;
+            }
+            
+            if (confirm("We will come back to the replay setup. The following sliders allow you change some aspects for effects during the lightshow. Of course these variables apply while the corrosponding effect are being applied. Click ok to continue")) {
+                FadeSlider.style = "border: 3px solid red";
+                await delay(1);
+                alert("This first slider defines how long elements will take to fade out");
+                FadeSlider.style = "border: 0px";
+                SpinSlider.style = "border: 3px solid red";
+                await delay(1);
+                alert("The next slider defines how long it will take for the spinning animation to complete one full rotation. So a shorter time means a faster rotation, I'm gonna make it a little more intuitive at some point but this was easier to code in :)");
+                SpinSlider.style = "border: 0px;"
+                await delay(1);
+                alert("The last two sliders define how much the value changes while pressing the arrow keys during the lightshow. it defines the increment amount for each effect. So if its set to 0.1s for example the value will change by 0.1s up or down depending on the arrow key pressed");
+                alert("Since I dont have the light show instructions yet it the Up and Down arrow keys make the fading longer and shorter respectivly. Left and Right arrow keys make the spinning slower or faster respectivly");
+            } else {
+                return false;
+            }
+            
+            if (confirm("Now we can see how to setup replay capabilities. Click ok to continue")) {
+                alert("Replay works by defining different events at scpeific times in respct to the song. So the reaply file could say to fade out x light for y amount of time at 32.456 seconds.\nThis allows the replay to have its own fade timing while you maintiain your own setting. Unfortuanly spin speed and spin animations must be synced between the replay and the live show. (I'm working on a promt that will let you know when the replay triggers the spinning)");
+                musicFile.style = "border: 3px dashed red";
+                await delay(1);
+                alert("You can import song files here. Files must be in mp3 to ensure compatibility");
+                musicFile.style = "border: 0px";
+                replayfile.style = "border: 3px dashed red";
+                await delay(1);
+                alert("You can import replay files here. The page will ensure it begins with a specific message just as a precaution to make sure uploaded files will work. files that arent formatted correctly can cause the page just be unresponsive to replay controls");
+                replayfile.style = "border: 0px";
+                playbackButton.style = "border: 3px dashed red";
+                await delay(1);
+                alert("Once you hit this BEGIN PLAYBACK button there will be a 5 second countdown accompanied by a bar that will help you anticipate when each second ends");
+                playbackButton.style = "border: 2px solid white";
+                recordingCheck.style = "border: 3px dashed red";
+                await delay(1);
+                alert("if you are recording a new replay file make sure to check 'Record with playback:'. The output if this recording can be found in a black box at the bottom of the settings window.\nCopy and paste the text into the a PLAIN TEXT file. It's very important you make it a plain text file as to ensure compatibility when imported to replay the recording.\n\n also maybe the text that allows the replay site to check that its a good file dissapears when your recording. I dont know why... but just add it in when your creating the replay file locally on your computer");
+                recordingCheck.style = "border: 0px";
+                await delay(1);
+                alert("Once the music ends the music will automatically pause and replay operations will pause");
+                runTimeDisplay.style = "border: 3px dashed red";
+                await delay(1);
+                alert("The 'Show runtime' check will allow you to view the current music time and the second number increases by 1 everytime a replay operation is completed. Many times these replay operations will consist of checking that the next event shouldn't happen yet");
+                runTimeDisplay.style = "border: 0px";
+            } else {
+                return false;
+            }
+            
+            //SetWindow.style.opacity = "0";
+        }
+
+        function setupMusic() {
+            var musicFile = document.getElementById("musicFile").files[0];
+            var musicPlayer = document.getElementById("musicPlayer");
+            musicPlayer.src = URL.createObjectURL(musicFile);
+        }
+
+        async function setupReplay() {
+            var replayFile = URL.createObjectURL(document.getElementById("replayfile").files[0]);
+            replayViewer.data = replayFile;
+        
+            replayLabel.textContent = "Replay File: " + String(document.getElementById("replayfile").files[0].name); //get the filename and change the displaybox for this to that filename
+            //console.log(replayFile)
+            var replayContent = await new Response(document.getElementById("replayfile").files[0]).text(); //get the text from the blob object and store it into the replayContent varible
+            //console.log(replayContent);
+
+            var replayLines = replayContent.split("\n"); //split the file into each line by identifying each newline character
+            //console.log(replayLines);
+            for (var i = 0; i < replayLines.length; i++) { //go through each of the lines divided by the previous command...
+                replayValues.push(String(replayLines[i]).split("\t")); //and make a new smaller list with each of the values seperated by the tab chracter
+            } //we end up with a nested list of all the values from the file
+            console.log(replayValues); //show us the list we just created
+            if (replayValues[0][0] === "THIS MESSAGE ENSURES THE LIGHTSHOW KNOWS THIS IS A WORKING REPLAY FILE: 17E2B9A2CA807") { //make sure the file is one from the lightshow
+                DoTheReplay = true; //if it is then allow the executiong of the functions
+            } else { //if it isnt...
+                replayLabel.textContent = "Make sure you're uploading a valid replay file"; //tell the user it may not be a valid file
+                DoTheReplay = false; //dont allow the execution of lines to prevent errors
+            }
+        }
+
+        function startRunTimer() { //BEGIN THE LIGHTSHOW
+            SendThatMessage("REPLAY_START");
+            ReplayCurrnetLine = 1; //make sure we are starting the replay from the begining
+            stopRunTimer = false; //make sure we dont stop the timer before it even starts
+            counting = timetocount; //set the counting variable to how much time we want to count
+            counting--; //subtract by one cause the actuall function that counts starts a second late
+
+            Countdown.textContent = timetocount; //display the time we are counting 
+            Countdown.style.opacity = "1"; //show the countdown text
+            CountdownBar.style.opacity = "1"; //show the countdown bar
+            CountdownBar.style.animation = "countItDown 1s linear 0s " + String(timetocount) + " forwards"; //play the animation on the bar the amount of times we are counting down
+
+            RunTime.textContent = 0; //Show the miliseconds at 0
+            TrackTime.textContent = 0; //Show the miliseconds at 0
+
+            playbackButton.setAttribute("onClick", "stopRunTimer = true;"); //set the button to toggle the stopper after countdown has begun
+            playbackButton.textContent = "STOP PLAYBACK"; //change the button to show its the stop button now
+            SetWindow.style = "opacity: 0"; //make the settings window dissapear
+            musicPlayer.currentTime = 0;//reset the audio back to the beggining
+            if (recordingCheck.checked === true) { //if we are recording...
+                ReplayOutput.textContent = "THIS MESSAGE ENSURES THE LIGHTSHOW KNOWS THIS IS A WORKING REPLAY FILE: 17E2B9A2CA807\n"; //set the beggining message so the replay file output can work
+                ReplayOutput.textContent = ReplayOutput.textContent.concat(String(musicPlayer.currentTime), "\t", "SPIN", "\tSET\t",String(SpinSpeed),"\n"); ////add the set spin speed event with the new speed
+                
+            }
+            var x = setInterval(function() { //start the interval function...
+
+                Countdown.textContent = counting; //show the current count on the Counting html element
+                counting--; //subtract one
+
+                if ((counting < 0) || (stopRunTimer === true)) { //once the counter reaches 0 or we hit the stop button
+                    clearInterval(x); //stop the second countdown
+                    Countdown.style.opacity = "0"; //make the countdown dissapear
+                    CountdownBar.style.opacity = "0"; //make the countdown bar dissapear
+                    CountdownBar.style.animation = "none"; //reset its animation so it can be played again later
+                    runTimerMili = 0; //set the milisecond timer to 0;
+                    musicPlayer.play(); //play the audiofile if there is one
+                    var y = setInterval(function() { //start the interval function... 
+
+                        RunTime.textContent = runTimerMili; //make sure the runtimer is updated with the milisecond count
+                        TrackTime.textContent = musicPlayer.currentTime;
+                        runTimerMili++; //add another to the count
+                        //if the value from the file at the current line is smaller or equal to the current time then play the animation
+                        //each time we run a command go to the next line in the file
+                        if ((DoTheReplay === true) && (replayValues[ReplayCurrnetLine][0] <= musicPlayer.currentTime)) { //if the time has come (for the line we are currently looking at) then begin its exectution
+                            if (replayValues[ReplayCurrnetLine][1] === "[object HTMLImageElement]") { //I probaly dont need this anymore
+                                console.log("Object HTMLImageElement text for some reason"); //but I might keep it and code it to handle expections
+                            } else if (replayValues[ReplayCurrnetLine][1] === "TEXT") {
+                                if (replayValues[ReplayCurrnetLine][2] === "I") {
+                                    SendThatMessage("TEXT_ON");
+                                } else if (replayValues[ReplayCurrnetLine][2] === "O") {
+                                    SendThatMessage("TEXT_OFF");
+                                } else if (replayValues[ReplayCurrnetLine][2] === "K") {
+                                    SendThatMessage("TEXT_CHANGE");
+                                }
+                            } else if (replayValues[ReplayCurrnetLine][2] === "I") { //if the element on this line need to be turned on
+                                //console.log("REPLAY: Turning on", replayValues[ReplayCurrnetLine][1]); //tell us we are turning soemthing on
+                                document.getElementById(replayValues[ReplayCurrnetLine][1]).style.opacity = "1"; //get the elements name and turn it on
+                            } else if (replayValues[ReplayCurrnetLine][2] === "O") { //if we read this lines element should be turned of
+                                //console.log("REPLAY: Turning off", replayValues[ReplayCurrnetLine][1]); //tell us we are turning off an element
+                                document.getElementById(replayValues[ReplayCurrnetLine][1]).style.opacity = "0"; //turn of the element found on that line
+                            } else if (replayValues[ReplayCurrnetLine][2] === "F") { //if we detect this line is fading the element...
+                                //console.log("REPLAY: Fading", replayValues[ReplayCurrnetLine][1], replayValues[ReplayCurrnetLine][3]); //turning on an element
+                                document.getElementById(replayValues[ReplayCurrnetLine][1]).style = "opacity:0"; //once the animation ends the opacity should stay 0
+                                document.getElementById(replayValues[ReplayCurrnetLine][1]).style.animation = "none"; // reset the animation
+                                document.getElementById(replayValues[ReplayCurrnetLine][1]).offsetHeight; //trigger the reflow apparently cause it wont work without it... please just dont ask me cause i really dunno. Credit to user (https://stackoverflow.com/users/3075942/user) on Stack Overflow
+                                document.getElementById(replayValues[ReplayCurrnetLine][1]).style.animation = "fadeout " + String(replayValues[ReplayCurrnetLine][3]) + "s linear 1 normal";
+                            } else if (replayValues[ReplayCurrnetLine][2] === "S1") {
+                                if (replayValues[ReplayCurrnetLine][1] === "I") {
+                                    spin = 1;
+                                    ColorGroup.style.animation = "spinit " + String(SpinSpeed) + "s linear 0s infinite"; // Set the animation
+                                    RingGroup.style.animation = "spinit " + String(SpinSpeed) + "s linear 0s infinite reverse"; // Set the animation
+                                    //console.log("Started Spinning first")
+                                } else {
+                                    spin = 0;
+                                    ColorGroup.style.animation = "none"; // Remove the animation
+                                    RingGroup.style.animation = "none"; // Remove the animation
+                                    //console.log("Stopped Spinning first")
+                                }
+                            } else if (replayValues[ReplayCurrnetLine][2] === "S2") {
+                                if (replayValues[ReplayCurrnetLine][1] === "I") {
+                                    spin2 = 1;
+                                    BeamCGroup.style.animation = "spinit " + String(SpinSpeed) + "s linear 0s infinite"; // Set the animation
+                                    //console.log("Started Spinning first")
+                                } else {
+                                    spin2 = 0;
+                                    BeamCGroup.style.animation = "none"; // Set the animation
+                                    //console.log("Stopped Spinning first")
+                                }
+                            } else if (replayValues[ReplayCurrnetLine][2] === "SET") {
+                                SpinSpeed = Number(replayValues[ReplayCurrnetLine][3]);
+                                SpinRange.textContent = 'Spin speed set to: ' + String(Number(SpinSpeed).toFixed(2)) + 's'; //update the text in the settings window
+                                SpinSlider.value = SpinSpeed; //update the slider in the settings winodw
+                                //console.log("Set Speed to ", Number(replayValues[ReplayCurrnetLine][3]), "\nSpinSpeed value is at", SpinSpeed);
+                            };
+                            ReplayCurrnetLine++; //once the line has been handled move on the next line
+                            //console.log(ReplayCurrnetLine, replayValues.length) //tell us which line we are at out of the total lines
+                        }
+                        if (ReplayCurrnetLine >= replayValues.length) {
+                            DoTheReplay = false; //if we run out of lines to run then stop trying to execute lines that dont exist
+                        }
+
+                        if (stopRunTimer === true) { //if the stop button is hit...
+                            clearInterval(y); //Stop the interval function
+                            playbackButton.setAttribute("onClick", "startRunTimer();"); //set the button to toggle the stopper after countdown has begun
+                            playbackButton.textContent = "BEGIN PLAYBACK"; //change the button to show its the stop button now
+                            musicPlayer.pause(); //pause the music player
+                            SendThatMessage("TEXT_RESET");
+                        }
+                    }, 1);//every milisecond
+                }
+            }, 1000); //every 1 second
+        }
+
+        var elem = document.documentElement; //Reference the whole page as an element so we can fullscreen the whole page. Credit to W3 schools for helping me out with this one. 
+        function openFullscreen() { //create the function for fullscreen
+            if (elem.requestFullscreen) { //if this fullscreen method works...
+                elem.requestFullscreen(); //use it to fullscreen
+            } else if (elem.webkitRequestFullscreen) { /* Safari */ // if this fullscreen method works...
+                elem.webkitRequestFullscreen(); //then use it to fullscreen
+            } else if (elem.msRequestFullscreen) { /* IE11 */ //and this is our last straw so if it works...
+                elem.msRequestFullscreen(); // then use it
+            } //if none of those worked I have to ask which browser could you possibly be using?
+        }
+
+        function showHideRuntime(onOff) { //show the runtimer. this function is used in the checkbox for it in the settings 
+            if (onOff === true) { //if yes
+                RunTime.style.opacity = "1"; //show both the tracktime and the Runtime/operation count thingie 
+                TrackTime.style.opacity = "1";
+                WaveContainer.style.opacity = "1";
+                
+            } else { //if not
+                RunTime.style.opacity = "0"; //hide the times
+                TrackTime.style.opacity = "0";
+                WaveContainer.style.opacity = "0";
+            }
+        }
+
+        //set the keycode values for keys not in the lightshow list
+        var g_key = 71;
+        var t_key = 84;
+        var left_arrow = 37;
+        var up_arrow = 38;
+        var right_arrow = 39;
+        var down_arrow = 40;
+        
+        //Names         ==================  CUBED LIGHTS  ==================||==================  WHITE CIRCLE  ====================||=================  COLORED CIRCLE  ===================||=================  SPECKLES  ================
+        //keys          2      3      4      5  --  6      7      8      9  ||  Q      W      E      R  --  Y      U      I      O  ||  A      S      D      F  --  H      J      K      L  ||  Z      X      C      V  --  B      N      M
+        const keys   = [50,    51,    52,    53,    54,    55,    56,    57,    81,    87,    69,    82,    89,    85,    73,    79,    65,    83,    68,    70,    72,    74,    75,    76,    90,    88,    67,    86,    66,    78,    77]
+        //const lights = ["UL4", "UL3", "UL2", "UL1", "UR1", "UR2", "UR3", "UR4", "RL4", "RL3", "RL2", "RL1", "RR1", "RR2", "RR3", "RR4", "CL4", "CL3", "CL2", "CL1", "CR1", "CR2", "CR3", "CR4", "SL4", "SL3", "SL2", "SL1", "SR1", "SR2", "SR3"] // not inverted
+        const lights = ["UR4", "UR3", "UR2", "UR1", "UL1", "UL2", "UL3", "UL4", "RR4", "RR3", "RR2", "RR1", "RL1", "RL2", "RL3", "RL4", "CR4", "CR3", "CR2", "CR1", "CL1", "CL2", "CL3", "CL4", "SR4", "SR3", "SR2", "SR1", "SL1", "SL2", "SL3"] //these lists are inverted so that when playing it on the projector left is actually on the left side
+
+        //Names          ===================  EDGE BEAMS  ===================||==================  PILLAR LIGHTS  ===================||===================  BEAM CIRCLE  ====================||================  BAR LIGHTS  ===============
+        //keys           2      3      4      5  --  6      7      8      9  ||  Q      W      E      R  --  Y      U      I      O  ||  A      S      D      F  --  H      J      K      L  ||  Z      X      C      V  --  B      N      M
+        //KeyCodes      [50,    51,    52,    53,    54,    55,    56,    57,    81,    87,    69,    82,    89,    85,    73,    79,    65,    83,    68,    70,    72,    74,    75,    76,    90,    88,    67,    86,    66,    78,    77]
+        //const lights2 = ["BL4", "BL3", "BL2", "BL1", "BR1", "BR2", "BR3", "BR4", "PL4", "PL3", "PL2", "PL1", "PR1", "PR2", "PR3", "PR4", "EL4", "EL3", "EL2", "EL1", "ER1", "ER2", "ER3", "ER4", "AL4", "AL3", "AL2", "AL1", "AR1", "AR2", "AR3"] //not inverted so left is left when on the display. but we probably wont switch back cause I didnt add redudancy for that and I'm in too deep now
+        const lights2 = ["BR4", "BR3", "BR2", "BR1", "BL1", "BL2", "BL3", "BL4", "PR4", "PR3", "PR2", "PR1", "PL1", "PL2", "PL3", "PL4", "ER4", "ER3", "ER2", "ER1", "EL1", "EL2", "EL3", "EL4", "AR4", "AR3", "AR2", "AR1", "AL1", "AL2", "AL3"] //anotehr inverted element list
+        
+        var mode = 0; //set fading effect with the mode variable. later defined to toggle by pressing g
+        var spin = 0; //set the spinning effect with the spin variable. later defined to toggle by pressing t
+        var mode2 = 0; //Mode for the second keyboard
+        var spin2 = 0; //Spin for the second keyboard
+
+        function ToggleLights() { //used with the botton to turn on/off all the lights
+            //console.log(document.getElementById("LightsToggle").textContent === "TURN OFF ALL LIGHTS") //This tells us if its reading the condition as true to or not. Specifaclly if the text for the light toggle button is "TURN OFF ALL LIGHTS"
+            if (document.getElementById("LightsToggle").textContent === "TURN OFF ALL LIGHTS") { //if the button says to turn off the lights...
+                LightsToggle.textContent = "TURN ON ALL LIGHTS"; //change it to say it will turn then on when pressed again
+                for (let i=0; i < lights.length; i++) { //for every light in the list...
+                    document.getElementById(lights2[i]).style = "opacity:0"; //turn off the second set
+                    document.getElementById(lights[i]).style = "opacity:0"; //turn off the first set
+                }
+                SL4.style="opacity:0"; //and the two extra buggers from the comma key cause its special
+                AL4.style="opacity:0";
+            } else if (document.getElementById("LightsToggle").textContent === "TURN ON ALL LIGHTS") {//if the button says to turn on the lights
+                LightsToggle.textContent = "TURN OFF ALL LIGHTS"; //change it to say it will turn them off when clicked again
+                for (let i=0; i < lights.length; i++) { //for every light...
+                    document.getElementById(lights2[i]).style = "opacity:1"; //turn off the second set
+                    document.getElementById(lights[i]).style = "opacity:1"; //turn off the first set
+                }
+                SL4.style="opacity:1"; //and the two extra buggers
+                AL4.style="opacity:1";
+            }
+        }
+
+        
+
+        window.onload = function(){  //when the page loads...
+
+            document.getElementById("TheBigBoiHTML").style.backgroundColor = "black";
+
+            console.log("%cHey There! if you want to see some action here in the console go into the index.html file (if you have this project saved. With all the images and folders) and go ahead and uncomment the console.log() lines. Each line should also have a comment describing what your seeing", "border: 1px solid white; border-radius: 10px; padding: 10px; color: white; font-weight:bold;");
+            //invite our friends from the console to join us here in the code and enable more console messages to see more action when the site is running
+            console.log("%cWant a quick turtorial to get familiar? type in %cBeginTurotial()%c here in the console and hit enter.", "color: white", "color: lime;", "color: white") //you can use css styles to output stylised messages to the Javascript console. use %c to start it in the message and define the style in the second argument for the console.log() function
+            //Let people already looking at the console know how to begin the tutorial
+
+            if (runTimeDisplay.checked === true) { //if I have the time set to show by default then show the times (they are off in the css by default)
+                RunTime.style.opacity = "1";
+                TrackTime.style.opacity = "1";
+                WaveContainer.style.opacity = "1";
+            }
+
+            //detecting the comma key was having trouble with the other setup so we just made a more manual setup to make sure its works.
+            window.addEventListener("keyup", function(e) { //if the key is lifted...
+                if(e.getModifierState("CapsLock") === true) { //if its capslock
+                    if ((e.keyCode == 188) && (mode2 == 0)) {
+                        AL4.style="opacity: 0%"; //make the light in the second set dissapear
+                        if (recordingCheck.checked === true) { //if we are recording save the time and event to the replayOutput
+                            ReplayOutput.textContent = ReplayOutput.textContent.concat(String(musicPlayer.currentTime), "\t", String("AL4"), "\tO\n");
+                        }
+                    } else if ((e.keyCode == 188) && (mode2 == 1)) { //if its in the fading mode
+                        AL4.style="opacity:0%"; //make it turn off for when the animation finishes
+                        AL4.style.animation = "fadeout " + String(FadeDuration) + "s linear 0s 1 normal"; //fade out the light
+                        if (recordingCheck.checked === true) { //if we are recording save the time and fade during to the replayOutput
+                            ReplayOutput.textContent = ReplayOutput.textContent.concat(String(musicPlayer.currentTime), "\t", String("AL4"), "\tF\t",FadeDuration,"\n");
+                        }
+                    }
+                } else { //if its not capslock
+                    if ((e.keyCode == 188) && (mode == 0)) { 
+                        SL4.style="opacity: 0%"; //make the light in the first set dissapear
+                        if (recordingCheck.checked === true) { //if we are recording save the time and event to the replayOutput
+                            ReplayOutput.textContent = ReplayOutput.textContent.concat(String(musicPlayer.currentTime), "\t", String("SL4"), "\tO\n");
+                        }
+                    } else if ((e.keyCode == 188) && (mode == 1)) { //if its in the fading mode...
+                        SL4.style="opacity:0%"; //make the light turn off for when the animation finishes
+                        SL4.style.animation = "fadeout " + String(FadeDuration) + "s linear 0s 1 normal"; //fade out the light
+                        if (recordingCheck.checked === true) { //if we are recording save the time and event to the replayOutput
+                            ReplayOutput.textContent = ReplayOutput.textContent.concat(String(musicPlayer.currentTime), "\t", String("SL4"), "\tF\t",FadeDuration,"\n");
+                        }
+                    }
+                }
+            });
+            window.addEventListener("keydown", function(e) { //when the key is pressed
+                if(e.getModifierState("CapsLock") === true) { //if capslock
+                    if (e.keyCode == 188) {
+                        AL4.style="opacity: 100%"; //make the light appear on keypress
+                        if (recordingCheck.checked === true) { //if we are recording save the time and event to the replayOutput
+                            ReplayOutput.textContent = ReplayOutput.textContent.concat(String(musicPlayer.currentTime), "\t", String("AL4"), "\tI\n");
+                        }
+                    }
+                    
+                } else {
+                    if (e.keyCode == 188) {
+                        SL4.style="opacity: 100%"; //make the light appear on keypress
+                        if (recordingCheck.checked === true) { //if we are recording save the time and event to the replayOutput
+                            ReplayOutput.textContent = ReplayOutput.textContent.concat(String(musicPlayer.currentTime), "\t", String("SL4"), "\tI\n");
+                        }
+                    }
+                    
+                }
+            });
+
+            window.onkeydown = function(gfg){ 
+                //console.log(gfg.keyCode) //print the keycodes for each key when we press them down
+
+                //this block checks which arrow key was pressed and increases or decreases the fade or spin duration staying within range of the sliders
+                if ((gfg.keyCode === up_arrow) && (FadeDuration + FadeChange < 3)) { //if the up arrow is pressed and we are within range...
+                    FadeDuration = FadeDuration + FadeChange; //incerase the change amount to the fade duration
+                    //console.log("Fade duration changed to: " + String(FadeDuration)); //print the new value
+                    FadeRange.textContent = 'Fade duration set to: ' + String(Number(FadeDuration).toFixed(2)) + 's'; //Update the text in the settings window
+                    FadeSlider.value = FadeDuration; //update the slider in the settings window
+                } else if ((gfg.keyCode === down_arrow) && (FadeDuration - FadeChange > 0.1)) { //if the down arrow is pressed and we are within range...
+                    FadeDuration = FadeDuration - FadeChange;
+                    //console.log("Fade duration changed to: " + String(FadeDuration)); //print the new value
+                    FadeRange.textContent = 'Fade duration set to: ' + String(Number(FadeDuration).toFixed(2)) + 's'; //Update the text in the settings window
+                    FadeSlider.value = FadeDuration; //update the slider
+                } else if ((gfg.keyCode === left_arrow) && (SpinSpeed + SpinChange < 10)) { //if the left arrow is pressed and we are within range...
+                    SpinSpeed = SpinSpeed + SpinChange; //add the change amount to the spin speed
+                    //console.log("Spin speed changed to: " + String(SpinSpeed)); //print the new speed
+                    SpinRange.textContent = 'Spin speed set to: ' + String(Number(SpinSpeed).toFixed(2)) + 's'; //update the text in the settings window
+                    SpinSlider.value = SpinSpeed; //update the slider in the settings winodw
+                    if (recordingCheck.checked === true) { //if we are recording...
+                        ReplayOutput.textContent = ReplayOutput.textContent.concat(String(musicPlayer.currentTime), "\t", "SPIN", "\tSET\t",String(SpinSpeed),"\n"); //add the set spin speed event with the new speed
+                    }
+                } else if ((gfg.keyCode === right_arrow) && (SpinSpeed - SpinChange > 0.2)) { //if the right arrow is pressed and we are within range...
+                    SpinSpeed = SpinSpeed - SpinChange; //update the spinspeed
+                    //console.log("Spin speed changed to: " + String(SpinSpeed)); //print the new speed
+                    SpinRange.textContent = 'Spin speed set to: ' + String(Number(SpinSpeed).toFixed(2)) + 's'; //Update the text in the settings window
+                    SpinSlider.value = SpinSpeed; //update the slider
+                    if (recordingCheck.checked === true) { //if we are recording...
+                        ReplayOutput.textContent = ReplayOutput.textContent.concat(String(musicPlayer.currentTime), "\t", "SPIN", "\tSET\t",String(SpinSpeed),"\n"); ////add the set spin speed event with the new speed
+                    }
+                } 
+
+                if (gfg.getModifierState("Control") === true) { //if we press the control key...
+                    if (SetWindow.style.opacity === "1") { //and the window is already shown
+                        SetWindow.style="opacity: 0"; //hide the settings window
+                    } else { //if it isnt already shown
+                        SetWindow.style="opacity: 1"; //show the settings window
+                    }
+                    //console.log("Make the settings window appear") //exactly what is says, just lets you know it deteced the key correctly and should make the winodw appear.
+                }
+
+                //effect keys
+                if(gfg.getModifierState("CapsLock") === true) {
+                    if((gfg.keyCode === g_key) && (mode2 == 0)){  
+                        mode2 = 1;
+                        console.log("mode is 1");
+                    } else if ((gfg.keyCode === g_key) && (mode2 == 1)) {
+                        mode2 = 0;
+                        console.log("mode is 0");
+                    }; 
+
+                    if((gfg.keyCode === t_key) && (spin2 == 0)){  
+                        spin2 = 1;
+                        BeamCGroup.style.animation = "spinit " + String(SpinSpeed) + "s linear 0s infinite"; // Set the animation
+                        if (recordingCheck.checked === true) { //if we are recording...
+                            ReplayOutput.textContent = ReplayOutput.textContent.concat(String(musicPlayer.currentTime), "\t", "I", "\tS2\n"); //add the event to enable the spinning
+                        }
+                    } else if ((gfg.keyCode === t_key) && (spin2 == 1)) {
+                        spin2 = 0;
+                        BeamCGroup.style.animation = "none"; // Remove the animation
+                        if (recordingCheck.checked === true) { //if we are recording...
+                            ReplayOutput.textContent = ReplayOutput.textContent.concat(String(musicPlayer.currentTime), "\t", "O", "\tS2\n"); //add the event to disable the spinning
+                        }
+                    };
+                } else {
+                    if((gfg.keyCode === g_key) && (mode == 0)){  
+                        mode = 1;
+                        console.log("mode is 1");
+                    } else if ((gfg.keyCode === g_key) && (mode == 1)) {
+                        mode = 0;
+                        console.log("mode is 0");
+                    }; 
+
+                    if((gfg.keyCode === t_key) && (spin == 0)){  
+                        spin = 1;
+                        ColorGroup.style.animation = "spinit " + String(SpinSpeed) + "s linear 0s infinite"; // Set the animation
+                        RingGroup.style.animation = "spinit " + String(SpinSpeed) + "s linear 0s infinite reverse"; // Set the animation
+                        if (recordingCheck.checked === true) { //if we are recording...
+                            ReplayOutput.textContent = ReplayOutput.textContent.concat(String(musicPlayer.currentTime), "\t", "I", "\tS1\n"); //add the event to enable the spinning
+                        }
+                    } else if ((gfg.keyCode === t_key) && (spin == 1)) {
+                        spin = 0;
+                        ColorGroup.style.animation = "none"; // Remove the animation
+                        RingGroup.style.animation = "none"; // Remove the animation
+                        if (recordingCheck.checked === true) { //if we are recording...
+                            ReplayOutput.textContent = ReplayOutput.textContent.concat(String(musicPlayer.currentTime), "\t", "O", "\tS1\n"); //add the event to disable the spinning
+                        }
+                    };
+                } 
+
+                if(gfg.getModifierState("CapsLock") === true) { //If the CapsLock key is down for this key then affect the second set of lights
+                    //console.log("Modifier Key Enabled! DOWN") //tell us the keydown event for the second keyboard is working since there wherent any images for it yet
+                    document.getElementById(lights2[keys.indexOf(gfg.keyCode)]).style = "opacity:1"; //instant flashing mode. Set the corresponding elemnts opacity to 1 aka 100% for the second keyboard
+                    if (recordingCheck.checked === true) {
+                        ReplayOutput.textContent = ReplayOutput.textContent.concat(String(musicPlayer.currentTime), "\t", String(lights2[keys.indexOf(gfg.keyCode)]), "\tI\n");
+                    }
+                } else { //if its not then affect the first set of lights
+                    document.getElementById(lights[keys.indexOf(gfg.keyCode)]).style = "opacity:1"; //instant flashing mode. Set the corresponding elemnts opacity to 1 aka 100%
+                    //console.log(lights[keys.indexOf(gfg.keyCode)]); //this is to keep track of which elements are triggering 
+                    if (recordingCheck.checked === true) {
+                        ReplayOutput.textContent = ReplayOutput.textContent.concat(String(musicPlayer.currentTime), "\t", String(lights[keys.indexOf(gfg.keyCode)]), "\tI\n");
+                    }
+                }
+
+            window.onkeyup = function(gfg){ //       ======== ON KEY UP ========      for isntant lighting
+                if(gfg.getModifierState("CapsLock") === true) { //If the CapsLock key is down for this key then affect the second set of lights
+                    //console.log("Modifier Key Enabled! UP") //tell us the keyup event for the second keyboard is working since there wherent any images for it yet
+                    if (mode2 == 0) {
+                        document.getElementById(lights2[keys.indexOf(gfg.keyCode)]).style = "opacity:0"; //instant flashing mode. Set the corresponding elemnts opacity to 0 aka 0%
+                        if (recordingCheck.checked === true) {
+                            ReplayOutput.textContent = ReplayOutput.textContent.concat(String(musicPlayer.currentTime), "\t", String(lights2[keys.indexOf(gfg.keyCode)]), "\tO\n");
+                        }
+                    } else {
+                        document.getElementById(lights2[keys.indexOf(gfg.keyCode)]).style = "opacity:0"; //set to 0 so it doesnt apear again after the animation ends
+                        document.getElementById(lights2[keys.indexOf(gfg.keyCode)]).style.animation = "fadeout " + String(FadeDuration) + "s linear 0s 1 normal"; //set the fading animation
+                        if (recordingCheck.checked === true) {
+                            ReplayOutput.textContent = ReplayOutput.textContent.concat(String(musicPlayer.currentTime), "\t", String(lights2[keys.indexOf(gfg.keyCode)]), "\tF\t",FadeDuration,"\n");
+                        }
+                    }
+                } else { //if its not then affect the first set of lights
+                    if (mode == 0) {
+                        document.getElementById(lights[keys.indexOf(gfg.keyCode)]).style = "opacity:0"; //instant flashing mode. Set the corresponding elemnts opacity to 0 aka 0%
+                        if (recordingCheck.checked === true) {
+                            ReplayOutput.textContent = ReplayOutput.textContent.concat(String(musicPlayer.currentTime), "\t", String(lights[keys.indexOf(gfg.keyCode)]), "\tO\n");
+                        }
+                    } else {
+                        document.getElementById(lights[keys.indexOf(gfg.keyCode)]).style = "opacity:0"; //set to 0 so it doesnt apear again after the animation ends
+                        document.getElementById(lights[keys.indexOf(gfg.keyCode)]).style.animation = "fadeout " + String(FadeDuration) + "s linear 0s 1 normal"; //set the fading animation
+                        if (recordingCheck.checked === true) {
+                            ReplayOutput.textContent = ReplayOutput.textContent.concat(String(musicPlayer.currentTime), "\t", String(lights[keys.indexOf(gfg.keyCode)]), "\tF\t",FadeDuration,"\n");
+                        }
+                    }
+                }
+
+                };
+            };
+        };	
+    </script>
+</html>
