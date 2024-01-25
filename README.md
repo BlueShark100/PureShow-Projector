@@ -49,10 +49,10 @@ At the very top there is a button that allows you to instantly turn on or off al
 ###### Setting Music and Replay Files
 If you have already recorded a replay file (Will go over how to record and save a replay further on) you can uploaded it here in the file input box. The file must be a test file and it must include the line ```THIS MESSAGE ENSURES THE LIGHTSHOW KNOWS THIS IS A WORKING REPLAY FILE: 17E2B9A2CA807``` at the very top followed by a new line to begin the recording data. <br/><br/>
 
-Recording data consisits of the time an event occurs, then the light being affects, the action taking place, and then any specifications for that action. Below is an example:<br/>
+Recording data consisits of the time an event occurs, then the light being affects, the action taking place, and then any specifications for that action. Below is an example. Keep in mind that the example provided will not work on the webpage due to the formating of the second line, without the second line and the added comments this would be a working replay file.<br/>
 ```
 THIS MESSAGE ENSURES THE LIGHTSHOW KNOWS THIS IS A WORKING REPLAY FILE: 17E2B9A2CA807
-#Event Time	Element	I = on | 0 = Off | F = Fade when fading the time to fade is in the third tab over
+#EventTime	 Element	  I = on | 0 = Off | F = Fade when fading the time to fade is in the third tab over
 3.604914     AR2       I                #This line will turn on the AR2 element
 21.150575    AL4       O                #This line turns off the AL4 element
 23.543904    AR2       F        0.6     #Fade the AR2 element with a duration of 0.6s
