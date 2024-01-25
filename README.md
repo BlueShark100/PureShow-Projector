@@ -44,10 +44,10 @@ Active keys: **zxcv bnm,**<br/>
 ## Control Center
 This lighshow utlity features a control center that allows you to replay and record lightshows. This can be used to control multiple sets of lights at once with two different performances put together. In order to view the control center click the **control** key on your keyboard.\n
 
-###### TURN ON/OFF ALL LIGHTS
+#### TURN ON/OFF ALL LIGHTS
 At the very top there is a button that allows you to instantly turn on or off all the lights. The text should change to describe the action according to its last interaction.<br/>
 
-###### Setting Music and Replay Files
+#### Setting Music and Replay Files
 If you have already recorded a replay file (Will go over how to record and save a replay further on) you can uploaded it here in the file input box. The file must be a test file and it must include the line ```THIS MESSAGE ENSURES THE LIGHTSHOW KNOWS THIS IS A WORKING REPLAY FILE: 17E2B9A2CA807``` at the very top followed by a new line to begin the recording data. <br/><br/>
 
 Recording data consisits of the time an event occurs, then the light being affects, the action taking place, and then any specifications for that action. Below is an example. Keep in mind that the example provided will not work on the webpage due to the formating of the second line, without the second line and the added comments this would be a working replay file.<br/>
@@ -67,21 +67,23 @@ If the replay file isnt working check to see if the first line matches the speci
 
 Adding the music file is simple. It can be any audio file as an MP3 and will be played when you start the show.<br/>
 
-##### Starting the show (for playback and/or recording of replay files)
+#### Starting the show (for playback and/or recording of replay files)
 There is a button with the text "BEGIN PLAYBACK", once clicked it will change to "STOP PLAYBACK" indicating a chagned action that will cease an active replay. Once the button is clicked red text and a red bar will count you down. The bar is provided to easily visuale exactly when each second starts and ends. After the countdown the replay is active and will begin playing any uploaded music file and iterating through an uploaded replay file.<br/>
 
 If you wish to record and save a replay file be sure to check the checkbox that says "Record with playback". This will begin outputting events to a text box at the bottom of the control center that you can copy and paste into a plain text file to save the replay. I recomend highlighting the text from the bottom as I have often encountered issues accidentally highilighting an image from the lightshow with the text and causeing issues when trying to paste into a plain text file.<br/>
 
-##### Show Runtime
+#### Show Runtime
 This checkmark allows you to see the current time of the show and how many operations have been iterated since the begiging of the show. Runtime will be shown in the bottom left corner. Top number corresponds to the current time of the show and the bottom number corresponds to how many operations have been iterated. An operation in this case is when the code checks the current time of the show and compares it with the next command from the replay files. Often times the action taken place is to wait another cycle until the show time matches or excees the time of the next command in the replay file. In a nutshell its how many times the code has checked for something to happen from the replay file.<br/>
 
-##### Sliders
+#### Sliders
 The Fade duration slider controlls the amount of time the fading effect takes to go from 100% opacity to 0%.<br/>
 The Spin Speed slider controlls the amount of time it takes for the elements to complete one full rotation. So for a shorter time the elements will spin faster and longer times result in slower spinning.<br/>
 The Fade change and Spin change sliders controll how much the arrow keys vary the respective fade or spin times per each key press. For example with Fade change set to 0.1 seconds, every time you pressed the up or down arrow key it will change the fade duration by 0.1 seconds.<br/>
 
-##### Extra Tid Bits
+#### Extra Tid Bits
 After the sliders you'll find a text preview of your replay file if one is uploaded. Below that there should be a player to preview an uploaded music file. **Be sure the music player is paused when starting the the show from the "BEGIN PLAYBACK" Button.** At the very bottom is a text box that will contain the output of a new replay file if you choose to record one using the "Record with playback" checkbox.<br/>
+
+When hovering your mouse over the top left corner a button will appear that will allow you to full screen the site to remove the tabs and search bar for a clean projection.<br/>
 
 ## Bugs and Technicalities
 When recording a replay file often times the message that is reqiured on the first line will disspaear and you would have to re-add it manually when saving the plain text. If the window has been inactive for a while it may not be runnig at full speed. In order to avoid timing mishaps when using the "BEGIN PLAYBACK" button to start the show click the button to turn on or off all the lights until it's fully responsive, which is to say all the lights have no delay to turn on or off when clicking the button. <br/><br/>
